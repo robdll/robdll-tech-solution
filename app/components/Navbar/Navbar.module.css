@@ -50,6 +50,7 @@
   font-size: 1.125rem;
   font-weight: 600;
   color: var(--text-primary);
+  margin-top: 4px;
 }
 
 /* Navigation Links */

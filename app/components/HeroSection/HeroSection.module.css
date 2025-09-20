@@ -1,5 +1,5 @@
 .heroSection {
-  background: linear-gradient(135deg, #dbeafe 0%, #ffffff 100%);
+  background: linear-gradient(135deg, var(--blue-light) 0%, var(--background) 100%);
   padding: 5rem 0;
 }
 
@@ -119,9 +119,9 @@
   width: 100%;
   max-width: 28rem;
   height: 24rem;
-  background-color: #f3f4f6;
+  background-color: var(--background);
   border-radius: 1rem;
-  border: 2px dashed #d1d5db;
+  border: 2px dashed var(--text-muted);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -138,7 +138,7 @@
   width: 4rem;
   height: 4rem;
   margin: 0 auto;
-  background-color: #d1d5db;
+  background-color: var(--text-muted);
   border-radius: 0.5rem;
   display: flex;
   align-items: center;
@@ -148,43 +148,18 @@
 .icon {
   width: 2rem;
   height: 2rem;
-  color: #6b7280;
+  color: var(--text-secondary);
 }
 
 .placeholderText {
-  color: #6b7280;
+  color: var(--text-secondary);
   font-weight: 500;
   margin: 0;
 }
 
 .placeholderSubtext {
   font-size: 0.875rem;
-  color: #9ca3af;
+  color: var(--text-muted);
   margin: 0;
 }
 
-/* Dark mode styles */
-.dark .heroSection {
-  background: linear-gradient(135deg, #1e3a8a 0%, #0a0a0a 100%);
-}
-
-.dark .placeholderImage {
-  background-color: #374151;
-  border-color: #4b5563;
-}
-
-.dark .placeholderIcon {
-  background-color: #4b5563;
-}
-
-.dark .icon {
-  color: #9ca3af;
-}
-
-.dark .placeholderText {
-  color: #9ca3af;
-}
-
-.dark .placeholderSubtext {
-  color: #6b7280;
-}
