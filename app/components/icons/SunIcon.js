@@ -2,8 +2,8 @@ const SunIcon = ({ className = "h-5 w-5" }) => {
   return (
     <svg
       className={className}
-      fill="none"
-      stroke="currentColor"
+      fill="#fbbf24"
+      stroke="#f59e0b"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
     >

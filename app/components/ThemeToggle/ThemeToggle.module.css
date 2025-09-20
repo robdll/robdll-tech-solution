@@ -1,8 +1,7 @@
 .toggleButton {
   padding: 0.5rem;
   border-radius: 0.5rem;
-  background-color: var(--blue-light);
-  color: var(--blue-primary);
+  background-color: rgb(255, 255, 255, .1);
   border: none;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
@@ -12,13 +11,25 @@
 }
 
 .toggleButton:hover {
-  background-color: var(--blue-secondary);
-  color: white;
+  background-color: rgb(255, 255, 255, .9);
+}
+
+
+.sunButton {
+  border: 2px solid #fbbf24;
+}
+
+.moonButton {
+  border: 2px solid #60a5fa;
+  background-color: rgb(255, 255, 255, .1);
+}
+
+.moonButton:hover {
+  background-color: #1e3a8a;
 }
 
 .toggleButton:focus {
   outline: none;
-  box-shadow: 0 0 0 2px var(--blue-primary);
 }
 
 .icon {
