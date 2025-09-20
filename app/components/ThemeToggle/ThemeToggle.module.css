@@ -1,0 +1,27 @@
+.toggleButton {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: var(--blue-light);
+  color: var(--blue-primary);
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toggleButton:hover {
+  background-color: var(--blue-secondary);
+  color: white;
+}
+
+.toggleButton:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--blue-primary);
+}
+
+.icon {
+  width: 1.25rem;
+  height: 1.25rem;
+}
