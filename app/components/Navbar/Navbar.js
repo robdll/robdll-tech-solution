@@ -22,7 +22,7 @@ const Navbar = () => {
               {'{}'}
             </div>
             <span className={styles.logoText}>
-              Rob DII Tech Solutions
+              Rob Dll Tech Solutions
             </span>
           </div>
 
@@ -42,9 +42,6 @@ const Navbar = () => {
           {/* Right side - Theme toggle and CTA */}
           <div className={styles.rightSection}>
             <ThemeToggle />
-            <button className={styles.ctaButton}>
-              Book a consultation
-            </button>
           </div>
         </div>
       </div>

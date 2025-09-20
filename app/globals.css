@@ -14,23 +14,6 @@
   --text-muted: #94a3b8;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-    
-    /* Dark mode blue colors */
-    --blue-primary: #3b82f6;
-    --blue-secondary: #60a5fa;
-    --blue-light: #1e3a8a;
-    --blue-dark: #1e40af;
-    
-    /* Dark mode text colors */
-    --text-primary: #f1f5f9;
-    --text-secondary: #cbd5e1;
-    --text-muted: #64748b;
-  }
-}
 
 /* Dark theme class */
 .dark {
@@ -74,8 +57,6 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+.dark {
+  color-scheme: dark;
 }

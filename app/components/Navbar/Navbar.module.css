@@ -1,5 +1,5 @@
 .navbar {
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: var(--background);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid #e5e7eb;
   position: sticky;
@@ -124,18 +124,5 @@
 
 /* Dark mode styles */
 .dark .navbar {
-  background-color: rgba(10, 10, 10, 0.95);
   border-bottom-color: #374151;
-}
-
-.dark .logoText {
-  color: var(--text-primary);
-}
-
-.dark .navLink {
-  color: var(--text-secondary);
-}
-
-.dark .navLink:hover {
-  color: var(--blue-secondary);
 }
